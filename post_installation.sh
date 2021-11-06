@@ -39,6 +39,7 @@ yay -Sy brave-bin
 # yay -Sy slack-desktop
 
 # oh my zsh:
+yes | sudo pacman -Sy zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # To increase responsiveness:

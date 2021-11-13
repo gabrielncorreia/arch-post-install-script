@@ -27,6 +27,8 @@ yay -Sy feedreader-beta
 
 # Installing useful apps
 yay -Sy vscodium-bin
+yes | sudo pacman -Sy nodejs
+yes | sudo pacman -Sy npm
 yay -Sy onlyoffice-bin
 yes | sudo pacman -Sy gimp
 # instalar a extensão do diolinux
